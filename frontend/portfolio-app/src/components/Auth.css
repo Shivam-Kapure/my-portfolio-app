@@ -1,0 +1,106 @@
+/* Container styling with background for Login */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-bg {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  }
+  
+  /* Container styling with background for Register */
+  .register-bg {
+    background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+  }
+  
+  /* Card styling */
+  .auth-card {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .auth-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form field styling */
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-field {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .auth-field label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .auth-field input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+  }
+  
+  .auth-field input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+  }
+  
+  /* Button styling */
+  .auth-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .auth-button:hover {
+    background-color: #357ab7;
+  }
+  
+  /* Footer link styling */
+  .auth-footer {
+    margin-top: 1rem;
+    color: #666;
+  }
+  
+  .auth-link {
+    color: #4a90e2;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  .auth-link:hover {
+    color: #357ab7;
+  }  
